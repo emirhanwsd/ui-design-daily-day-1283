@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap');
+
+body, html{
+    height: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card{
+    width: 388px;
+    height: 518px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-body{
+    width: 388px;
+    height: 480px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: auto;
+    -webkit-box-shadow: 2px 7px 32px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 7px 32px -16px rgba(0,0,0,0.75);
+    box-shadow: 2px 7px 32px -16px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card-image{
+    position: absolute;
+    margin-bottom: auto;
+}
+
+.card .card-image img{
+    border-radius: 15px;
+    width: 328px;
+    height: 328px;
+}
+
+
+.card .card-body .card-about{
+    margin-top: 302px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 328px;
+    height: 140px;
+}
+
+.card .card-body .card-about .card-title{
+    font-weight: 400;
+    font-size: 14px;
+    color: #1A183E;
+    text-transform: uppercase;
+}
+
+.card .card-body .card-about .card-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #1A183E;
+}
+
+.card .card-body .card-about .card-prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.card .card-body .card-about .card-prices .card-discounted-price{
+    font-weight: 700;
+    font-size: 22px;
+    color: #1A183E;
+    margin-right: 10px;
+}
+
+.card .card-body .card-about .card-prices .card-price{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1A183E;
+    text-decoration: line-through;
+}
+
+.card .card-body .card-about .card-stock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFF2FB;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    color: #1A183E;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card .card-body .card-about .card-stock .card-stock-status{
+    background-color: #64D674;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
